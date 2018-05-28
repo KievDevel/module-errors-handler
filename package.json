@@ -1,0 +1,38 @@
+{
+  "name": "errors-handler-module",
+  "version": "1.0.0",
+  "description": "Module that wraps bugsnag and logger, replaces throwing errors. ",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "dependencies": {
+    "bugsnag": "^2.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "chai-json": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KievDevel/module-errors-handler.git"
+  },
+  "keywords": [
+    "bugsnag",
+    "npm",
+    "module",
+    "errors",
+    "handler"
+  ],
+  "author": "KievDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KievDevel/module-errors-handler/issues"
+  },
+  "homepage": "https://github.com/KievDevel/module-errors-handler#readme"
+}
